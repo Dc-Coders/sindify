@@ -1,8 +1,11 @@
 .site_header {
-    width: 100%;
+    width: 121.5%;
     height: 96px;
     background: #1FA8AD;
     padding: 24px 0 0 0;
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
 }
 .site_header_container {
     display: flex;
@@ -23,11 +26,12 @@
 .site_navbar_list_item_link {
     color: #FFFFFF;
     font-family: Circe;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 22.5px;
     transition: all ease 0.7s;
     position: relative;
+    bottom: 2.4rem;
 }
 .site_navbar_list_item_link::after {
     content: "";
@@ -116,6 +120,9 @@
     }
 }
 @media screen and (max-width: 1210px) {
+    .site_header_container_btn{
+        margin-right: 3rem;
+    }
     .site_navbar_list {
         display: none;
     }
